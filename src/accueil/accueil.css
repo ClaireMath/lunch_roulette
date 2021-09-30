@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+   align-items: center;
+background-color: thistle;
+}
+
+h1 {
+    font-family: Pacifico;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #15B0C6;
+}
+.big-ctn {
+    display: flex;
+    /* flex-direction: row; */
+    background-color: yellow;
+    width: 100%;
+    padding: 20px;
+        justify-content:  space-evenly;
+        /* align-items: center; */
+        /* margin-left: 190px; */
+}
+.smallCTN{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ctn1{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+
+}
+.ctn2{
+    background-color: blueviolet;
+
+}
+.ctn3{
+    background-color: green;
+
+}
+button  {
+    width: 352px;
+    height: 64px; border-radius: 100px;
+    color: white;
+    font-size: 1em;
+    border: 0px solid #15B0C6;
+}
+
+.lunch-button {
+    Width: 352px;
+    Height: 64px; border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    background-color: #15B0C6;
+
+}
+.apero-button {
+    background-color: #87C818;
+}
+.croissantage-button{
+    background-color: #FF5E92;
+}
+
+a {
+    Width: 100%;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+}
